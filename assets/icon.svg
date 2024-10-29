@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 20.0 20.0"
+	enable-background="new 0 0 20.0 20.0"
+	xml:space="preserve">
+<defs>
+	<linearGradient id="fillGrad0" x1="97.035%" y1="96.721%" x2="-2.602%" y2="-2.015%">
+   		<stop offset="0.000%" style="stop-color:rgb(171,149,255);stop-opacity:1.000" />
+		<stop offset="100.000%" style="stop-color:rgb(0,0,255);stop-opacity:1.000" />
+	</linearGradient>
+
+	<style type="text/css">
+		@font-face {
+			font-family: 'comicNeueSans'; 
+			src: url('./comicNeueSans.ttf');
+		}
+	</style>
+	<style type="text/css">
+		@font-face {
+			font-family: 'Brevia-Bold'; 
+			src: url('./Brevia-Bold.ttf');
+		}
+	</style>
+</defs>
+	<path
+		transform = "rotate(-0.00 10.01 9.97)"
+		fill="url(#fillGrad0)"
+		stroke="#FFFFFF"
+		fill-opacity="1.0"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M4.09,0.10L15.93,0.10A3.87 3.87 0 0 1 19.80,3.97L19.80,15.97A3.87 3.87 0 0 1 15.93,19.84L4.09,19.84A3.87 3.87 0 0 1 0.22,15.97L0.22,3.97A3.87 3.87 0 0 1 4.09,0.10z"/>
+	<path
+		fill="#FFFFFF"
+		stroke="#FFFFFF"
+		fill-opacity="0.122"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.55641985"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M9.81,9.76C9.20,8.34,8.60,6.91,9.34,6.83C10.08,6.75,12.16,8.02,13.20,8.80C14.24,9.57,14.24,9.86,13.20,10.65C12.16,11.44,10.08,12.73,9.34,12.67C8.60,12.60,9.20,11.18,9.81,9.76z"/>
+	<path
+		fill="#000000"
+		stroke="#FFFFFF"
+		fill-opacity="0.737"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.55641985"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M9.81,9.73L11.17,9.75"/>
+	<path
+		fill="#000000"
+		stroke="#FFFFFF"
+		fill-opacity="0.737"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.55641985"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M6.86,8.31L8.04,8.31"/>
+	<path
+		fill="#000000"
+		stroke="#FFFFFF"
+		fill-opacity="0.737"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.55641985"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M7.36,9.76L8.53,9.76"/>
+	<path
+		fill="#000000"
+		stroke="#FFFFFF"
+		fill-opacity="0.737"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.55641985"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M6.86,11.10L8.04,11.10"/>
+	<path
+		fill="#FFFFFF"
+		stroke="#FFFFFF"
+		fill-opacity="0.212"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.020000001"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M10.14,1.14C14.96,1.14,18.88,5.05,18.88,9.88C18.88,14.70,14.96,18.61,10.14,18.61C5.31,18.61,1.40,14.70,1.40,9.88C1.40,5.05,5.31,1.14,10.14,1.14z"/>
+	<path
+		fill="#FFFFFF"
+		stroke="#FFFFFF"
+		fill-opacity="0.212"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.015938975"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M10.14,2.91C13.98,2.91,17.10,6.03,17.10,9.88C17.10,13.72,13.98,16.84,10.14,16.84C6.29,16.84,3.18,13.72,3.18,9.88C3.18,6.03,6.29,2.91,10.14,2.91z"/>
+	<path
+		fill="#7B51AD"
+		stroke="#FFFFFF"
+		fill-opacity="1.000"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M0.22,13.59Q10.01,16.08,19.80,13.67C19.83,14.66,19.86,15.65,19.78,16.36C19.71,17.07,19.53,17.51,19.28,17.93C19.02,18.34,18.69,18.74,18.25,19.07C17.81,19.40,17.27,19.67,16.61,19.78C15.94,19.89,15.17,19.85,14.03,19.84C12.90,19.82,11.41,19.83,9.81,19.84C8.22,19.84,6.54,19.83,5.31,19.84C4.08,19.85,3.32,19.87,2.57,19.54C1.82,19.21,1.10,18.53,0.70,17.89C0.31,17.26,0.24,16.67,0.22,15.96C0.19,15.25,0.21,14.42,0.22,13.59z"/>
+	<path
+		fill="#FFFFFF"
+		stroke="#FFFFFF"
+		fill-opacity="1.000"
+		stroke-opacity="0.451"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M6.02,15.76L8.69,15.76A0.52 0.52 0 0 1 9.21,16.28L9.21,17.14A0.52 0.52 0 0 1 8.69,17.65L6.02,17.65A0.52 0.52 0 0 1 5.50,17.14L5.50,16.28A0.52 0.52 0 0 1 6.02,15.76z"/> 
+
+	<text 
+		font-size="1.7040128"
+		font-family="comicNeueSans"
+		fill="#7B51AD"
+		stroke-width="0"
+		fill-opacity="1.000"
+		text-anchor="start"
+  		transform="rotate(-358.52267 6.5078554 16.509521) scale(1.0622755 1.0)" >
+
+		<tspan x="5.351835" y="17.255522">W</tspan>
+	</text> 
+
+	<text 
+		font-size="1.6896533"
+		font-family="Brevia-Bold"
+		fill="#FFFFFF"
+		stroke-width="0"
+		fill-opacity="1.000"
+		text-anchor="start"
+		font-weight="bold"
+   		transform="rotate(-0.0 13.84668 16.714653) scale(0.95597476 1.0)" >
+
+		<tspan x="9.688857" y="17.348654">COMMERCE</tspan>
+	</text>
+	<path
+		fill="#FFFFFF"
+		stroke="#FFFFFF"
+		fill-opacity="1.000"
+		stroke-opacity="0.749"
+		fill-rule="nonzero"
+		stroke-width="0.0"
+		stroke-linejoin="miter"
+		stroke-linecap="round"
+		d="M7.70,17.54L7.89,18.00L7.04,17.58"/> 
+
+	<text 
+		font-size="1.9186318"
+		font-family="comicNeueSans"
+		fill="#7B51AD"
+		stroke-width="0"
+		fill-opacity="1.000"
+		text-anchor="start"
+  		transform="rotate(-353.5024 7.6575165 16.657085) scale(0.95138204 1.0)" >
+
+		<tspan x="7.5353346" y="17.166584">o</tspan>
+	</text> 
+
+	<text 
+		font-size="1.9186318"
+		font-family="comicNeueSans"
+		fill="#7B51AD"
+		stroke-width="0"
+		fill-opacity="1.000"
+		text-anchor="start"
+  		transform="rotate(-353.5024 8.603283 16.715702) scale(0.9513811 1.0)" >
+
+		<tspan x="8.529441" y="17.225203">o</tspan>
+	</text> 
+
+	<text 
+		font-size="1.3554394"
+		font-family="Brevia-Bold"
+		fill="#FEFEFE"
+		stroke-width="0"
+		fill-opacity="1.000"
+		text-anchor="start"
+  		transform="rotate(-0.0 3.0041063 16.707657) scale(0.98844576 1.0)" >
+
+		<tspan x="1.7117223" y="17.195156">FOR</tspan>
+	</text>
+</svg>

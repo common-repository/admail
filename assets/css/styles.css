@@ -1,0 +1,408 @@
+.admail-hide{
+    
+    display:none !important;
+    
+}
+
+.ambisn-outer-container {
+    display: inline-flex;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ambisn-outer-container.popup {
+    margin: unset;
+    display: none;
+}
+.ambisn-outer-container.popup.visible {
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+}
+
+.wc-ambisn-form p.ambisn-err-notice {
+    margin: unset;
+    font-size: 13px !important;
+    padding: unset;
+    font-weight: 400;
+    color: #ff8a65;
+    width: 100%;
+}
+
+.ambisn-outer-container.popup.visible::before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #00000036;
+}
+
+.ambisn-outer-container.popup #wc-ambisn-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999 !important;
+    display:none;
+}
+
+.ambisn-outer-container.popup.visible #wc-ambisn-container {
+    display:block !important;
+}
+
+
+div#wc-ambisn-container.subscribed p.ambisn-err-notice {
+    margin: unset;
+    margin-top: 10px;
+    font-size: 13px !important;
+    padding: unset;
+    font-weight: 400;
+    color: #ff8a65;
+    width: 100%;
+    text-align: center;
+}
+
+input#ambisn-unsubscribe {
+    border: unset;
+    background-color: unset;
+    padding: unset;
+    opacity: 0.7;
+    color: #444;
+    box-shadow: unset;
+}
+.ambisn-subscribed form {
+    display: inline-block;
+}
+input#ambisn-unsubscribe:focus, input#ambisn-unsubscribe:active {
+    outline: none;
+    color: unset;
+}
+.ambisn-subscribed.loading span.spinner {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #434343;
+    margin-bottom: -1px;
+    border-left-color: #efefef;
+    -webkit-animation: rotating 0.6s linear infinite;
+}
+.ambisn-variation-notice {
+    max-width: 450px;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+.ambisn-subscribed input#nm-product-id{
+    display:none !important;
+}
+.ambisn-variation-notice.popup {
+    margin-bottom: unset;
+    margin-top: unset;
+}
+#wc-ambisn-container.popup {
+    position: fixed;
+    left: calc(50% - 225px);
+    z-index: 99;
+    background-color: #fff;
+    width: 450px;
+    max-width: 90%;
+    display: none;
+    box-shadow: none;
+    top: calc(50% - 70px);
+}
+
+@media (max-width:500px){
+    #wc-ambisn-container.popup {
+        left: 5%;
+        width: 90%;
+    }
+}
+
+
+.wc-ambisn-form {
+    flex-direction: column;
+    align-items: stretch;
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+.wc-ambisn-form p {
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 600;
+    line-height: 20px;
+    color: #656c76;
+}
+.wc-ambisn-form .subscription-form{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.wc-ambisn-form input#email {
+    max-width: unset !important;
+    border: 1px solid #eceff1 !important;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 12px 15px;
+    flex: 1;
+    width: inherit;
+    min-height: 45px;
+    min-width: 180px;
+}
+
+.wc-ambisn-button{
+    padding: 5px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    background-color: #7350ff;
+    color: #fff;
+    border: unset;
+    min-width: 110px;
+    justify-content: center;
+    margin: unset;
+    min-height: 45px;
+    box-shadow: unset;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a.wc-ambisn-button.popup{
+    display:none;
+}
+a.wc-ambisn-button.popup.visible{
+    display:flex !important;
+}
+
+a.wc-ambisn-button.popup.subscribed span.unsubscribed {
+    display: none;
+}
+
+a.wc-ambisn-button.popup.subscribed span.subscribed {
+    display: inline;
+}
+
+a.wc-ambisn-button.popup span.subscribed {
+    display: none;
+}
+
+.wc-ambisn-button .icon {
+    width: 20px;
+    display: inline-flex;
+}
+
+.ambisn-sf-consent {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.summary.entry-summary>.wc-ambisn-button{
+    margin-bottom: 10px;
+}
+.wc-ambisn-form .notice {
+    flex: 1;
+    margin: unset !important;
+    padding: unset !important;
+}
+a.wc-ambisn-button.popup.visible {
+    display: inline-flex !important;
+}
+.wc-ambisn-form .notice h5{
+    margin: unset;
+    padding: unset;
+}
+button#ambisn-submit.active, button#ambisn-submit.done{
+    color:transparent !important;
+}
+button#ambisn-submit.active::after, button#ambisn-submit.done::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline;
+    position: absolute;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    border-left-color: #fff0 !important;
+}
+
+button#ambisn-submit.done::after {
+    border-left-color: #fff;
+}
+input#email.error {
+    border: 1px solid #ffcc80 !important;
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+button#ambisn-submit::after{
+    -webkit-animation: rotating 0.6s linear infinite;
+}
+
+        
+div#wc-ambisn-container.subscribed {
+    border: solid 0 #f2f2f2;
+    border-left: solid 5px #7350ff;
+    box-shadow: 0 0 1px #898989;
+    border-radius: 10px;
+}
+div#wc-ambisn-container{
+    padding: 15px;
+    border: solid 1px #f2f2f2;
+    background-color: #fff;
+}
+div#wc-ambisn-container .inner-content .ambisn-subscribed{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+div#wc-ambisn-container .inner-content .popup.ambisn-subscribed{
+    padding: 15px 15px 15px 0;
+}
+
+.ambisn-subscribed .icon {
+    background-color: #7350ff;
+    padding: 6px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup div.ambisn-close span {
+    background-color: #f0f0f0;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.ambisn-popup-overlay {
+    background-color: #00000038;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 90;
+}
+.wc-ambisn-form.popup {
+    padding: 30px 10px 10px !important;
+}
+.ambisn-variation-notice.popup {
+    margin: unset !important;
+    display: block;
+}
+.ambisn-variation-notice.popup.enabled div#wc-ambisn-container.popup {
+    display: block !important;
+}
+
+.ambisn-variation-notice.popup.enabled .ambisn-popup-overlay{
+    display:block !important;
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0.5; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0.5; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0.5; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0.5; }
+  100% { opacity:1; }
+}
+.ambisn-subscribed.loading #ambisn-unsubscribe{
+   -webkit-animation: flickerAnimation 1s infinite;
+   -moz-animation: flickerAnimation 1s infinite;
+   -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+
+/*Frontend subscriptions page*/
+
+table.woocommerce-cart-form.admail-subscriptions.loading {
+    position: relative;
+}
+
+table.woocommerce-cart-form.admail-subscriptions.loading::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff9;
+    top: 0;
+    left: 0;
+}
+
+table.woocommerce-cart-form.admail-subscriptions.loading::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #434343;
+    margin-bottom: -1px;
+    border-left-color: #efefef;
+    -webkit-animation: rotating 0.6s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.admail-subscriptions th.product-thumbnail {
+    width: 120px;
+}
+.admail-subscriptions td.product-name, .admail-subscriptions td.product-status {
+    vertical-align: middle;
+}
+
+.admail-subscriptions th.product-remove {
+    text-align:center;
+}
+
+.admail-subscriptions td.product-remove {
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.admail-subscriptions td.product-remove a.remove {
+    margin: auto;
+}
+
